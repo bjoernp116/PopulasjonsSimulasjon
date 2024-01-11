@@ -62,7 +62,7 @@ def main():
     ax3.plot(range(2021, 2021+79), edpy, color='r')
     fig.show()
     plt.show()
-    fig.savefig("./images/popsim1.png", pad_inches=2)
+    
 main()
 
 
