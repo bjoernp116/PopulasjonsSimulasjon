@@ -28,7 +28,7 @@ def init_plot():
     fig.suptitle("Estimert fremtidig Populasjon i Verden")
     return (fig, (ax1, ax2, ax3))
 
-# Funksjon for å plott populasjon
+# Funksjon for å plotte populasjon
 def plot_populasjon(akse, bpy, dpy, xs, ys, farge):
     # Konstantleddet er verdenspopulasjonen i 1950
     populasjon = ys
