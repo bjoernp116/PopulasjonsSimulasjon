@@ -1,9 +1,14 @@
 # Populasjons simulasjon
 
+I denne simulasjonen har kalkulert populasjonen utifra hvor mange som dør og hvor mange som blir født hvert år.
+Jeg har også plottet estimerte verdier fra kilden under, og beregnet hva som skjer vis halparten av befolkningen dør i 2021. Vi kan også se at funksjonen for populasjon ser veldig lik ut som en logisk funksjon. 
+
 ## Resultater hvis thanos ikke knipser
 ![Figur 1](https://github.com/bjoernp116/PopulasjonsSimulasjon/blob/master/Images/Figure_1.png)
+*Estimerte verdier = **Rød**, Verdier fra fortiden = **Grønn***
 ## Resultater hvis thanos knipser
-![Figur 2](https://github.com/bjoernp116/PopulasjonsSimulasjon/blob/master/Images/Figure_2.png)
+I denne grafen kan man se at *Født per år* aksen blir resatt til 1970 i 2021. Dette er fordi i 1970 var vi halvparten av menneskene vi er idag![Figur 2](https://github.com/bjoernp116/PopulasjonsSimulasjon/blob/master/Images/Figure_2.png)
+*Estimerte verdier = **Rød**, Verdier fra fortiden = **Grønn***
 
 
 ### Kilde

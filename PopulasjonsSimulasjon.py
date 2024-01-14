@@ -4,10 +4,10 @@ import pandas as pd
 
 # Importer data fra csv filer
 def importer_data():
-    bpy = [x for x in pd.read_csv("./births-per-year.csv")["Births"].tolist() if str(x)!="nan"]
-    ebpy = [x for x in pd.read_csv("./births-per-year.csv")["Estimate"].tolist() if str(x)!="nan"]
-    dpy = [x for x in pd.read_csv("./deaths-per-year.csv")["Deaths"].tolist() if str(x)!="nan"]
-    edpy = [x for x in pd.read_csv("./deaths-per-year.csv")["Estimate"].tolist() if str(x)!="nan"]
+    bpy = [x for x in pd.read_csv("./Data/births-per-year.csv")["Births"].tolist() if str(x)!="nan"]
+    ebpy = [x for x in pd.read_csv("./Data/births-per-year.csv")["Estimate"].tolist() if str(x)!="nan"]
+    dpy = [x for x in pd.read_csv("./Data/deaths-per-year.csv")["Deaths"].tolist() if str(x)!="nan"]
+    edpy = [x for x in pd.read_csv("./Data/deaths-per-year.csv")["Estimate"].tolist() if str(x)!="nan"]
     return (bpy, ebpy, dpy, edpy)
 
 # Inisier de 3 forskjellige aksene og gi dem aksenavn og titteler
